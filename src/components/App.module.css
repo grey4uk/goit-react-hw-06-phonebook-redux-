@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Acme', sans-serif;
+    font-size: 24px;
+    color: #0d033f;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+h2 {
+    font-weight: bold;
+}
+
+input::placeholder {
+    color: rgba(35, 8, 167, .4);
+    font-style: italic;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+button {
+    outline: none;
+}
+
+.phonebook {
+    width: 260px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.alertMessage {
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: 36px;
+    font-size: 24px;
+    background-color: rgb(207, 16, 16);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.alertClose {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    background-image: url('./ui/gtkclose-min.png');
+    background-color: transparent;
+    background-position: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.title {
+    padding: 10px;
+    font-size: 42px;
+    font-weight: bolder;
+}
+@media (min-width:768px) {
+    .phonebook {
+        width: 40vw;
+    }
+
+}

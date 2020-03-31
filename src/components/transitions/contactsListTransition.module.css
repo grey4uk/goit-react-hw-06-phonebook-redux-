@@ -1,0 +1,28 @@
+/*ANIMATION list*/
+
+.enter {
+    transform: translateX(-50%);
+    color: rgba(35, 8, 167, .4);
+    opacity: 0;
+}
+
+.enterActive {
+    /* color: #2528e7; */
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 250ms ease-in-out, transform 250ms ease-in-out, color 250ms ease-in-out;
+}
+
+.exit {
+    opacity: 1;
+    transform: scale(1);
+    transition: transform 250ms ease-in-out, opacity 250ms ease-in-out;
+}
+
+.exitActive {
+    opacity: 0;
+    transform: scale(0);
+}
+
+
+/*ANIMATION list*/

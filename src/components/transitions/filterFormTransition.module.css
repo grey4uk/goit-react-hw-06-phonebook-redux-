@@ -1,0 +1,25 @@
+/*ANIMATION FILTER FORM*/
+
+.enter {
+    transform: scale(0) skew(45deg, 0deg);
+    opacity: 0;
+}
+
+.enterActive {
+    opacity: 1;
+    transform: scale(1) skew(0deg, 0deg);
+    transition: opacity 250ms ease-in-out, transform 250ms linear;
+}
+
+.exit {
+    opacity: 1;
+    transform: scale(1) skew(0deg, 0deg);
+    transition: opacity 250ms ease-in-out, transform 250ms linear;
+}
+
+.exitActive {
+    opacity: 0;
+    transform: scale(0) skew(-45deg, 0deg);
+}
+
+/*ANIMATION FILTER FORM*/
